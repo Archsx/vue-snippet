@@ -1,13 +1,21 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <!-- <router-view/> -->
+    <p>nihao</p>
+    <custom/>
+    <global/>
+    <hello/>
   </div>
 </template>
 
 <script>
+import Custom from './components/Custom.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    Custom
+  }
 }
 </script>
 
